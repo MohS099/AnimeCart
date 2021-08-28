@@ -1,136 +1,173 @@
-#title{
+#title {
   background-color: #334257;
-  height: 550px;
 }
 
-body{
-font-family: "Montserrat";
+
+body {
+  font-family: "Montserrat";
 }
 
 h1 {
-   font-family: 'Montserrat';
-   font-size: 3rem;
-   line-height: 1.5;
-   font-weight: 900;
-   color: white;
-   padding-bottom: 20px;
-   padding-top: 15px;
- }
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
 
- h2{
-   color: white;
-   font-family: "Montserrat";
-   font-size: 2.5rem;
-   line-height: 1.5;
- }
+h2 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
 
- .special{
-   color: black;
-   text-align: center;
- }
+.special {
+  color: black;
+  text-align: center;
+}
 
- h3{
-   font-family:sans-serif;
-   font-weight: 900;
- }
+h3 {
+  font-family: sans-serif;
+  font-weight: 900;
+}
 
- p{
-   color: #8f8f8f;
- }
+p {
+  color: #8f8f8f;
+}
 
- .container-fluid{
-
+.container-fluid {
   padding: 3% 10% 7%;
+}
 
- }
-
- .rotate {
-
+.rotate {
   transform: rotate(20deg);
   position: absolute;
   width: 55%;
   margin-top: 10px;
   right: 40%;
-
 }
 
-.nav-item{
+.nav-item {
   padding: 20px;
   font-size: 20px;
 }
 
-.btn-space{
+.btn-space {
   margin-left: 30px;
 }
 
-#features{
+#features {
   padding: 10% 15%;
   background-color: white;
-  position:relative;
+  position: relative;
 }
 
-.icon{
+.icon {
   color: #053742;
 }
 
-.icon:hover{
+.icon:hover {
   color: #FF2626;
 }
 
-.box{
+.box {
   text-align: center;
   padding: 5%;
 }
 
-#testimonials{
-
+#testimonials {
   text-align: center;
   background-color: #2C394B;
   color: white;
-
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 30%;
   border-radius: 100%;
   margin: 20px;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 5% 15%;
 }
 
-#press{
+#press {
   background-color: #2C394B;
   padding-bottom: 3%;
   text-align: center;
 }
 
-.img22{
+.img22 {
   width: 295px;
   height: 295px;
 }
 
-.press-logo{
+.press-logo {
   width: 12%;
   margin: 20px 20px 30px;
 }
 
-#pricing{
+#pricing {
   padding: 100px;
 }
 
-.pricing-col{
+.pricing-col {
   padding: 3% 5%;
   text-align: center;
 }
 
-.bt{
+.bt {
   background-color: black;
   color: white;
 }
 
-.bt:hover{
-  background-color:#FF2626;
+.bt1{
+    background-color: white;
+}
+
+.bt1:hover {
+  background-color: #FF2626;
   color: white;
 }
+
+.bt:hover {
+  background-color: #FF2626;
+  color: white;
+}
+
+#cta{
+  background-color:  #334257;
+  color: white;
+  text-align: center;
+  padding: 8% 12%;
+  line-height: 2;
+}
+
+#footer{
+  text-align: center;
+  padding: 100px;
+}
+
+ .ics{
+   padding-bottom: 20px;
+ }
+
+.ft{
+  margin: 20px 10px;
+}
+
+@media(max-width: 1028px) {
+
+
+  .rotate {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+    #title {
+      text-align: center;
+    }
+  }
