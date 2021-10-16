@@ -149,8 +149,8 @@ hr{
 
 img{
   float: left;
-  width: 100px;
-  height: 150px;
+  width: 140px;
+  height: 200px;
   padding: 0 10px 0 0;
   margin-left: 80px;
 }
@@ -189,13 +189,5 @@ img{
   width: 25%;
   float: right;
   margin-right: 120px;
-
-}
-
-.bottom{
-  font-family: 'IM Fell Great Primer', serif;
-  color: #3DB2FF;
-  height: 400px;
-  margin: 100px auto 30px auto;
 
 }
