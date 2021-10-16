@@ -1,0 +1,201 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.head{
+  background-color: black;
+  height: 120px;
+  text-align: center;
+  padding: 10px;
+}
+h1{
+  color: white;
+  font-family: serif;
+  font-size: 50px;
+}
+
+#home{
+  background-color: #FF0033;
+}
+
+#home ul{
+  margin-left: 5px;
+}
+
+header{
+  margin: 0px;
+}
+
+.navbar{
+  background-color: #636261;
+}
+
+.navbar li{
+
+}
+
+.search{
+  padding: 9px;
+  float: right;
+}
+
+.imagess{
+  width: 20px;
+  margin-left: 5px;
+  height: 20px;
+
+}
+
+.images{
+  width: 30px;
+  height: 25px;
+  float: left;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.imagess1{
+  width: 25px;
+  height: 25px;
+  float: right;
+  margin-right: 150px;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 10px;
+
+}
+
+.navbar ul{
+  overflow: auto;
+  margin: 0px;
+}
+
+.navbar li a{
+
+  padding: 3px;
+  text-decoration:none;
+  color: white;
+  font-weight: 100;
+  font-family: 'Merriweather', serif;
+}
+
+.navbar1{
+  background-color:rgb(168,168,168);
+}
+.navbar1 li{
+  float: left;
+  list-style: none;
+  margin: 5px;
+
+}
+
+.navbar1 ul{
+  overflow: auto;
+  margin: 0px;
+}
+
+
+.navbar1 li a{
+
+  padding: 2px;
+  text-decoration:none;
+  color: Black;
+  float: left;
+  font-weight: 100;
+  font-family: 'Merriweather', serif;
+}
+
+.active:hover{
+  background-color:black;
+}
+
+.active1:hover{
+  background-color:white;
+}
+
+
+h2{
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+hr{
+  size:10px;
+  color:black;
+  margin-left:100px;
+  width:70%
+}
+
+
+.content{
+  margin-left: 100px;
+}
+
+.imagesc{
+  width: 150px;
+  height: 150px;
+}
+
+.container{
+  margin: 150px, auto;
+  padding: 5px;
+  width: 50%;
+}
+
+img{
+  float: left;
+  width: 100px;
+  height: 150px;
+  padding: 0 10px 0 0;
+  margin-left: 80px;
+}
+
+.text{
+  text-align: justify;
+  font-family: sans-serif;
+}
+.container1{
+  margin: 150px, auto;
+  padding: 5px;
+  width: 50%;
+}
+
+.imgg{
+  float: right;
+  width: 100px;
+  height: 150px;
+  padding: 0  0 0 10px;
+  margin-right: 80px;
+}
+
+.text1{
+  text-align: justify;
+  font-family: sans-serif;
+}
+.div1{
+
+  width: 65%;
+  float: left;
+}
+
+.div2{
+
+
+  width: 25%;
+  float: right;
+  margin-right: 120px;
+
+}
+
+.bottom{
+  font-family: 'IM Fell Great Primer', serif;
+  color: #3DB2FF;
+  height: 400px;
+  margin: 100px auto 30px auto;
+
+}
